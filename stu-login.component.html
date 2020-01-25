@@ -1,0 +1,20 @@
+<div class="divback">
+  <p>Student Login</p>
+  <div class="container">
+      <!--<div class="w-100 text-center border border-dark">-->
+        <div class=" w-100 " style="padding-left: 30%;padding-right: 30%;">
+            <h1 class="h3 mb-3 font-weight-normal text-center">Student Login</h1><br>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" [(ngModel)]='stuId' placeholder="Email address" required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" [(ngModel)]='pass' placeholder="Password" required><BR>
+            <!-- <div class="checkbox mb-3">
+            <label>
+            <input type="checkbox" value="remember-me"> Remember me
+            </label>
+            </div> -->
+            <button class="btn btn-lg btn-primary btn-block" (click)="logincheck('/student')">Login in</button>
+            <p class="text-center text-danger"><br>{{loginmsg}}</p>
+        </div>
+  </div>
+</div>
