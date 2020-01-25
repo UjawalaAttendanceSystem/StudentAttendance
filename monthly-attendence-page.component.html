@@ -1,0 +1,36 @@
+<br>
+<h4 class="text-center"> ID : {{myId}}</h4>
+<div class="container">
+    <div>
+        <mat-form-field>
+            <mat-label>Select month</mat-label>
+            <mat-select>
+                <mat-option *ngFor="let mon of Month" [value]="mon.value">
+                {{mon.viewValue}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <table id="attendence_tables" class="table table-hover shadow p-3 mb-5 bg-white rounded">
+        <thead class="thead-dark">
+            <tr>
+                <th>Date</th>
+                <th>First_Punch</th>
+                <th>Second_Punch</th>
+                <th>Third_Punch</th>
+                <th>Fourth_Punch</th>
+                <th>Present_Absent</th>
+        </tr>
+        </thead>
+        <tbody id="attendence_tables_tbody">
+            <tr *ngFor="let chut of attarray">
+                <td>{{ chut.date }}</td>
+                <td>{{ chut.First_Punch }}</td>
+                <td>{{ chut.Second_Punch }}</td>
+                <td>{{ chut.Third_Punch }}</td>
+                <td>{{ chut.Fourth_Punch }}</td>
+                <td>{{ chut.Present_Absent }}</td>
+              </tr>
+        </tbody>
+    </table>
+</div>
