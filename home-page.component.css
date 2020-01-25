@@ -1,0 +1,95 @@
+/*.slick-slider {  
+    width: 90%;  
+    margin: auto;  
+  } */
+  
+
+
+
+
+
+  /* nav style */
+
+  .navbar.navbar-expand-sm.navbar-light.bg-light{
+    background-color: rgb(240, 218, 27);
+
+
+
+
+}
+.nav-link{
+  color:#0aa3cd;
+      font-size: 18px;
+
+
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(180, 180, 129);
+  padding: 50px;
+  font-size: 20px;
+}
+div.TopperTelling{
+    background-position-x: 20%;
+    background-position-y: 40%;
+    
+}
+collapse.navbar-collapse{
+
+  background-color:bisque ;
+}
+.container-sm{
+  position: absolute;
+  left: 30%;
+  top:30%;
+  width: 500px;
+  height: 350px;
+  animation-delay: 3000ms;
+  align-content: space-around;
+  margin:0px auto;
+  padding:13px;
+  background-color:rgb(233, 233, 233) ;
+}
+
+/* toppers views */
+.TopperView{
+
+text-align: center;
+color: green;
+position: relative;
+
+}
+
+
+
+      
+      .card-group{
+
+        position:absolute;
+        left: 1%;
+       
+        width: 99%;
+        height: 90%px;
+        animation-delay: 3000ms;
+        align-content: space-around;
+        margin:10px auto;
+        padding:13px;
+        background-color:rgb(233, 233, 233) ;
+      }
+     
+      .card{
+
+        margin:10px auto;
+        padding:5px;
+      }
+
+
+      .carousel.slide{
+       
+        position: inherit;
+        
+        padding-left:9%;
+         }
+      
