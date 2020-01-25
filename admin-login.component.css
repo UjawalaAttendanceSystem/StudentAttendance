@@ -1,0 +1,7 @@
+.divback {
+    background-image: url(/assets/images/download5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 650px;
+    background-attachment: fixed; 
+         }
